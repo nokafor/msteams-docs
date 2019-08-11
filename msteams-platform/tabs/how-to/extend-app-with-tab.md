@@ -35,7 +35,7 @@ Regardless of the type of page, you're tab will need to adhere to the following 
 
 * Typically, as a safeguard against click-jacking, login pages don't render in IFrames. Therefore, your [authentication](foo.md) logic needs to use a method other than redirect (e.g., use token-based or cookie-based authentication).
 
-* Browsers adhere to a same-origin policy restriction that prevents a webpage from making requests to a different domain than the one that served a web page. However, you may need to redirect the configuration or content page to a another domain or subdomain. Your cross-domain navigation logic should allow the Teams client to validate the origin against a static validDomains list in the app manifest when loading or communicating with the tab.
+* Browsers adhere to a same-origin policy restriction that prevents a webpage from making requests to a different domain than the one that served a web page. However, you might need to redirect the configuration or content page to a another domain or subdomain. Your cross-domain navigation logic should allow the Teams client to validate the origin against a static validDomains list in the app manifest when loading or communicating with the tab.
 
 * To create a seamless experience, you should style your tabs based on the Teams client's theme, design, and intent (see [Content and conversations, all at once using tabs](foo.md)). Typically, tabs work best when they're built to address a specific need and focus on a small set of tasks or a subset of data that is relevant to the tab's channel location.
 
@@ -65,7 +65,7 @@ As with bots and messaging extensions, you update the [app manifest](foo.md) of 
 
 ### Personal Tabs
 
-The displayed content for personal tabs is the same for all users and is configured in the `staticTabs` array. You may declare up to sixteen (16) personal tabs in an app.
+The displayed content for personal tabs is the same for all users and is configured in the `staticTabs` array. You can declare up to sixteen (16) personal tabs in an app.
 
 |Name| Type| Maximum size | Required | Description|
 |---|---|---|---|---|
@@ -94,7 +94,7 @@ The example below shows just the `staticTabs` array from an app manifest.
 
 ### Channel/group tabs
 
-Channel/group tabs are added in the `configurableTabs` array. You may declare only one channel/group tab in the `configurableTabs` array.
+Channel/group tabs are added in the `configurableTabs` array. You can declare only one channel/group tab in the `configurableTabs` array.
 
 |Name| Type| Maximum size | Required | Description|
 |---|---|---|---|---|
