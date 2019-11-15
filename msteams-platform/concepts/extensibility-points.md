@@ -4,6 +4,7 @@ author: clearab
 description: Understand the extensibility points available to your app in the Microsoft Teams client.
 ms.topic: conceptual
 ms.author: anclear
+ms.custom: scenarios:getting-started
 ---
 # Extensible points in the Teams client
 
