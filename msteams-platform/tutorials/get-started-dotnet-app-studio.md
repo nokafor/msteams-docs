@@ -3,6 +3,8 @@ title: Get started with C#/.NET
 description: Get started building great apps in Microsoft Teams using C#/.NET
 keywords: getting started .net c# csharp
 ms.date: 11/09/2018
+ms.topic: conceptual
+ms.custom: scenarios:getting-started
 ---
 
 # Get started on the Microsoft Teams platform with C#/.NET and App Studio
