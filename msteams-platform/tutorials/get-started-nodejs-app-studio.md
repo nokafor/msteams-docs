@@ -4,7 +4,7 @@ description: Get started building great apps in Microsoft Teams using Node.js an
 keywords: getting started node.js nodejs App Studio
 ms.date: 11/09/2018
 ms.topic: tutorial
-ms.custom: scenarios:getting-started
+ms.custom: scenarios:getting-started; languages:JavaScript,Node.js
 ---
 
 # Get started on the Microsoft Teams platform with Node.js and App Studio
